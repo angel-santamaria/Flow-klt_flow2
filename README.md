@@ -9,6 +9,8 @@ Main changes:
 
 Tested and working with Ubuntu 14.04LTS.
 
+Prepared to work with ROS package: https://github.com/cvg/px-ros-pkg
+
 Original Project:
 http://pixhawk.org
 
