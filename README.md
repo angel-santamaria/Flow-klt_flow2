@@ -1,4 +1,4 @@
-#### PX4Flow Board Firmware
+## PX4Flow Board Firmware
 
 This is a working copy of https://github.com/PX4/Flow/tree/klt_flow2
 
@@ -12,11 +12,11 @@ Tested and working with Ubuntu 14.04LTS.
 Original Project:
 http://pixhawk.org
 
-## Requirements
+#### Requirements
 
 * Toolchain installation: visit for http://pixhawk.org/dev/px4flow Dev guide / toolchain installation 
 
-## Compilation and Flashing
+#### Compilation and Flashing
 
 * To build, run:
 
@@ -26,10 +26,10 @@ http://pixhawk.org
 
   `make upload-usb`
 
-##Sensor Settings
+#### Sensor Settings
 
 Change sensor settings in file: Flow-klt_flow2/src/settings.c
 
-## WARNINGS
+#### WARNINGS
 
 Firmware not compatible with newest versions of QGroundControl software.  
