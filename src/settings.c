@@ -170,18 +170,18 @@ void global_data_reset_param_defaults(void){
 	strcpy(global_data.param_name[PARAM_BOTTOM_FLOW_FEATURE_THRESHOLD], "BFLOW_F_THLD");
 	global_data.param_access[PARAM_BOTTOM_FLOW_FEATURE_THRESHOLD] = READ_WRITE;
 
-	global_data.param[PARAM_BOTTOM_FLOW_HIST_FILTER] = 0;
-	// global_data.param[PARAM_BOTTOM_FLOW_HIST_FILTER] = 1;
+	// global_data.param[PARAM_BOTTOM_FLOW_HIST_FILTER] = 0;
+	global_data.param[PARAM_BOTTOM_FLOW_HIST_FILTER] = 1;
 	strcpy(global_data.param_name[PARAM_BOTTOM_FLOW_HIST_FILTER], "BFLOW_HIST_FIL");
 	global_data.param_access[PARAM_BOTTOM_FLOW_HIST_FILTER] = READ_WRITE;
 
-	global_data.param[PARAM_BOTTOM_FLOW_GYRO_COMPENSATION] = 0;
-	// global_data.param[PARAM_BOTTOM_FLOW_GYRO_COMPENSATION] = 1;
+	// global_data.param[PARAM_BOTTOM_FLOW_GYRO_COMPENSATION] = 0;
+	global_data.param[PARAM_BOTTOM_FLOW_GYRO_COMPENSATION] = 1;
 	strcpy(global_data.param_name[PARAM_BOTTOM_FLOW_GYRO_COMPENSATION], "BFLOW_GYRO_COM");
 	global_data.param_access[PARAM_BOTTOM_FLOW_GYRO_COMPENSATION] = READ_WRITE;
 
-	global_data.param[PARAM_BOTTOM_FLOW_LP_FILTERED] = 0;
-	// global_data.param[PARAM_BOTTOM_FLOW_LP_FILTERED] = 1;
+	// global_data.param[PARAM_BOTTOM_FLOW_LP_FILTERED] = 0;
+	global_data.param[PARAM_BOTTOM_FLOW_LP_FILTERED] = 1;
 	strcpy(global_data.param_name[PARAM_BOTTOM_FLOW_LP_FILTERED], "BFLOW_LP_FIL");
 	global_data.param_access[PARAM_BOTTOM_FLOW_LP_FILTERED] = READ_WRITE;
 
