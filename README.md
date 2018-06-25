@@ -7,7 +7,7 @@ Main changes:
   - Fixed bug is inc/utils.h file. Changed itoa to gfc_itoa to compile.
   - New Parameters set in src/settings.c.
 
-Tested and working with Ubuntu 14.04LTS.
+Tested and working with Ubuntu 16.04LTS.
 
 Prepared to work with ROS package: https://github.com/cvg/px-ros-pkg
 
